@@ -1,6 +1,10 @@
 // Main.java
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        Merci m = new Merci();
+        DeRien d = new DeRien();
+        
+        m.sayMerci();
+        d.sayDeRien();
     }
 }
